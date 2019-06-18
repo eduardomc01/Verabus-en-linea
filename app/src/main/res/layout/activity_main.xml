@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="373dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="92dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="191dp"
+            android:layout_height="52dp"
+            android:background="@android:color/holo_blue_dark"
+            android:onClick="openSecondActivity"
+            android:text="Norte Sur: Vuelta 1"
+            android:textColor="@android:color/white"
+            tools:layout_editor_absoluteX="236dp"
+            tools:layout_editor_absoluteY="478dp" />
+
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="205dp"
+            android:layout_height="52dp"
+            android:background="@android:color/holo_blue_dark"
+            android:onClick="openSecondActivity"
+            android:text="Norte sur: Vuelta 2"
+            android:textColor="@android:color/white"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="385dp" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="304dp"
+        android:layout_height="238dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/buses"
+        tools:srcCompat="@drawable/buses" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="369dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="191dp"
+            android:layout_height="52dp"
+            android:background="@android:color/holo_blue_dark"
+            android:onClick="openSecondActivity"
+            android:text="Bolivar : Vuelta 1"
+            android:textColor="@android:color/white"
+            tools:layout_editor_absoluteX="236dp"
+            tools:layout_editor_absoluteY="478dp" />
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="205dp"
+            android:layout_height="52dp"
+            android:background="@android:color/holo_blue_dark"
+            android:onClick="openSecondActivity"
+            android:text="Bolivar: Vuelta 2"
+            android:textColor="@android:color/white"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="385dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="372dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.321"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.476">
+
+        <Button
+            android:id="@+id/button33"
+            android:layout_width="191dp"
+            android:layout_height="52dp"
+            android:background="@android:color/holo_blue_dark"
+            android:onClick="openSecondActivity"
+            android:text="Costera: Vuelta 1"
+            android:textColor="@android:color/white"
+            tools:layout_editor_absoluteX="236dp"
+            tools:layout_editor_absoluteY="478dp" />
+
+
+        <Button
+            android:id="@+id/button44"
+            android:layout_width="205dp"
+            android:layout_height="52dp"
+            android:background="@android:color/holo_blue_dark"
+            android:onClick="openSecondActivity"
+            android:text="Costera: Vuelta 2"
+            android:textColor="@android:color/white"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="385dp" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="125dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/holo_red_light"
+        android:text="Salir"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:onClick="cerrarApp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.437" />
+
+
+</android.support.constraint.ConstraintLayout>
